@@ -11,7 +11,7 @@ set(_cppSources
 set(_links
     uiLib)
 
-qt6_add_executable(${_exeName} ${_cppSources})
+qt_add_executable(${_exeName} ${_cppSources})
 
 qt_add_qml_module(${_exeName}
     URI ${_exeName}
