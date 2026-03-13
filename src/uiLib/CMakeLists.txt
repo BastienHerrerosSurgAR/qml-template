@@ -23,6 +23,3 @@ qt_add_qml_module(${_libName}
     NO_PLUGIN)
 
 target_link_libraries(${_libName} PUBLIC ${_publicLinks})
-
-# Add qml to library
-# target_link_libraries(${_libName} PUBLIC ${_libName}plugin)
