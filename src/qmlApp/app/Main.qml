@@ -11,7 +11,6 @@ ApplicationWindow {
     visible: true
     width: 1280
     height: 720
-    visibility: Window.Maximized
 
     Column {
         anchors.centerIn: parent
