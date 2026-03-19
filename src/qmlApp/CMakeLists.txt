@@ -1,15 +1,21 @@
 set(_exeName "qmlApp")
 
 set(_qmlFiles
-    app/Main.qml)
+    app/Main.qml
+    widgets/Hello.qml
+    widgets/SimpleIcon.qml)
 
-set(_qmlResources)
+set(_qmlResources
+    assets/icon.svg)
 
 set(_cppSources
     main.cpp)
 
 set(_links
-    uiLib)
+    Qt::Core
+    Qt::Qml
+    Qt::Quick
+    Qt::Widgets)
 
 qt_add_executable(${_exeName} ${_cppSources})
 

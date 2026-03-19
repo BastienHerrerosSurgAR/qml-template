@@ -2,8 +2,6 @@ import QtQuick
 import QtQuick.Window
 import QtQuick.Controls
 
-import uiLib
-
 ApplicationWindow {
     id: root
 
