@@ -1,5 +1,4 @@
 import QtQuick
-import QtQuick.Window
 import QtQuick.Controls
 
 ApplicationWindow {
@@ -9,6 +8,7 @@ ApplicationWindow {
     visible: true
     width: 1280
     height: 720
+    color: "grey"
 
     Column {
         anchors.centerIn: parent
